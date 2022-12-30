@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* > {
+  box-sizing: border-box;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(240, 229, 229);
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* typography */
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* formatting */
+
+header {
+  padding: 10px;
+  display: flex;
+  border-bottom: 2px solid black;
+  height: 3rem;
+  align-items: center;
+}
+
+small {
+  font-size: 1rem;
+  margin-left: 2px;
+  font-weight: 300;
+  
+}
+
+.header-navbar {
+  margin-left: auto;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 10px;
+  
+}
+
+.resume-btn {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: salmon;
+  color: black;
+  border-radius: 5px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+
+/* hero formatting */
+
+
+.hero {
+  padding: 0 50px;
+  border-bottom: 2px solid black;
+  height: 650px;
+  display: flex;
+
+}
+
+
+.introduction {
+  width: 700px;
+  margin: auto;
+
+}
+
+.introduction h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.intro-links {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.intro-links a {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: salmon;
+  color: black;
+  font-size: 1.5rem;
+}
+
+/* About formatting */
+
+.about {
+  height: 650px;
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container {
+  display: flex;
+}
+
+
+.about-content h1 {
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.profile-picture {
+  max-height:350px;
+  width: 350px;
+  object-fit: cover;
+  object-position: top -10px right 0px;
+  border-radius: 100%;
+  align-self: center;
+  justify-self:right;
+  margin-right: 25px;
+
+}
+
+
+/* utilitity selectors */
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+
