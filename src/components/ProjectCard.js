@@ -12,8 +12,10 @@ export default function ProjectCard({item}){
                 <Toolkit project={item.tools} key={item.id}/>
                 <h2>Background</h2>
                 <p>{item.description}</p>
+                    <a target="_blank" href={item.websiteLink}>Live Site: {item.websiteLink} </a>
+                    <a  target="_blank" href={item.githubRepoLink}>Github Repository: {item.githubRepoLink}</a>
             </div>
         </div>
 
     )
-}
+}  
