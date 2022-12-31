@@ -1,12 +1,11 @@
 import React from "react";
 import Toolkit from "./Toolkit.js";
-import Calculator from "../images/calculator.png"
 
 export default function ProjectCard(){
     return (
         <div className="projectcard-container">
             <div className="container-left">
-                <img className="project-img" src={"src/images/calculator.png"} alt="Sanduni Senarath in a white blouse smiling"/>
+                <img className="project-img" src={require("../images/calculator.png")} alt="Sanduni Senarath in a white blouse smiling"/>
             </div>
             <div className="container-right">
                 <h2>SKILLS & TOOLS</h2>
