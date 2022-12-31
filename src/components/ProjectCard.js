@@ -1,17 +1,17 @@
 import React from "react";
 import Toolkit from "./Toolkit.js";
 
-export default function ProjectCard(){
+export default function ProjectCard({item}){
     return (
         <div className="projectcard-container">
             <div className="container-left">
-                <img className="project-img" src={require("../images/calculator.png")} alt="Sanduni Senarath in a white blouse smiling"/>
+                <img className="project-img" src={require(`../images/${item.coverImg}`)} alt="Sanduni Senarath in a white blouse smiling"/>
             </div>
             <div className="container-right">
-                <h2>SKILLS & TOOLS</h2>
-                <Toolkit project={"generalTools"} key={"generalTools"}/>
+                <h2>{item.title}</h2>
+                <Toolkit project={item.tools} key={item.id}/>
                 <h2>Background</h2>
-                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <p>{item.description}</p>
             </div>
         </div>
 

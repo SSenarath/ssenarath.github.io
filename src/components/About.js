@@ -1,6 +1,7 @@
 import React from "react";
 import MyImage from "../images/SEN-262524.JPG"
 import Toolkit from "./Toolkit.js";
+import data from "./data";
 
 export default function About(){
     return(
@@ -13,7 +14,7 @@ export default function About(){
                     </div>
                     <div className="container-right">
                         <h2>SKILLS & TOOLS</h2>
-                        <Toolkit project={"generalTools"} key={"generalTools"}/>
+                        <Toolkit project={data.generalTools} key={"data.generalTools"}/>
                         <h2>Background</h2>
                         <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
                     </div>
