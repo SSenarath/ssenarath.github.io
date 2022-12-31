@@ -14,7 +14,6 @@ export default function Hero(){
                     <a href="#">Projects</a>
                     <a href="#">Contact</a>
                 </ul>
-
             </div>
         </section>
     )
