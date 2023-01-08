@@ -29,7 +29,7 @@ export default function Header(){
                         <a>Contact</a>
                     </div>
                 </Link>
-                <a className ="btn">Resume</a>
+                <a className ="btn" href="sanduni-resume.pdf" download="sanduni-resume.pdf">Resume</a>
             </nav>
         </header>
     )
