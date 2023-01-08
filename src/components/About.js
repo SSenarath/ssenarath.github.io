@@ -5,7 +5,7 @@ import data from "./data";
 
 export default function About(){
     return(
-        <div className="skills">
+        <div id ="skills" className="skills">
             <section className="section">
                     <h1>MY SKILLS & TOOLS</h1>
                     <div className="skill-category">
