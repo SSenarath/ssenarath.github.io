@@ -8,7 +8,9 @@ export default function About(){
                     <div className="skill-category">
                         <h2>Languages: </h2>
                         <p>Node.js |</p>
-                        <p>JavaScript </p>
+                        <p>JavaScript |</p>
+                        <p>Java |</p>
+                        <p>Phython </p>
                     </div>
                     <div className="skill-category">
                         <h2>Frameworks: </h2>
