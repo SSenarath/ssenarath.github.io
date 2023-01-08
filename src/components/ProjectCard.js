@@ -10,10 +10,12 @@ export default function ProjectCard({item}){
             <div className="container-right">
                 <h2>{item.title}</h2>
                 <Toolkit project={item.tools} key={item.id}/>
-                <h2>Background</h2>
                 <p>{item.description}</p>
-                    <a target="_blank" href={item.websiteLink}>Live Site: {item.websiteLink} </a>
-                    <a  target="_blank" href={item.githubRepoLink}>Github Repository: {item.githubRepoLink}</a>
+                <div className="project-links">
+                    <a className = "btn" target="_blank" href={item.websiteLink}>Live Site</a>
+                    <a className = "btn" target="_blank" href={item.githubRepoLink}>Github Repository</a>
+                </div>
+                    
             </div>
         </div>
 

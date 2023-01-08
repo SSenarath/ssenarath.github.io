@@ -1,13 +1,10 @@
 import React from "react";
-import MyImage from "../images/SEN-262524.JPG"
-import Toolkit from "./Toolkit.js";
-import data from "./data";
 
 export default function About(){
     return(
         <div id ="skills" className="skills">
             <section className="section">
-                    <h1>MY SKILLS & TOOLS</h1>
+                    <h1 className="section-title">MY SKILLS & TOOLS</h1>
                     <div className="skill-category">
                         <h2>Languages: </h2>
                         <p>Node.js |</p>
@@ -23,17 +20,20 @@ export default function About(){
                         <h2>Databases: </h2>
                         <p>MongoDB</p>
                     </div>
-                    <div className="skill-category">
-                        <h2>Databases: </h2>
-                        <p>HTML |</p>
-                        <p>CSS |</p>
-                        <p>Git |</p>
-                        <p>Github |</p>
-                        <p>VS Code |</p>
-                        <p>Netbeans |</p>
-                        <p>Chrome DevTools |</p>
-                        <p>Linux (Ubuntu) |</p>
-                        <p>Figma</p>
+                    <div className="skill-category dev">
+                        <h2>Developer Tools: </h2>
+                        <div className="dev-tools">
+                            <p>HTML |</p>
+                            <p>CSS |</p>
+                            <p>Git |</p>
+                            <p>Github |</p>
+                            <p>VS Code |</p>
+                            <p>Netbeans |</p>
+                            <p>Chrome DevTools |</p>
+                            <p>Linux (Ubuntu) |</p>
+                            <p>Figma</p>
+                        </div>
+                        
                     </div>
             </section>
         </div>

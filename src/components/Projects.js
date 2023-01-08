@@ -8,11 +8,14 @@ export default function Projects(props){
         return <ProjectCard key={each.id} item={each}/>
     })
     return(
-        <section id="projects" className="project section">
-            <div className="content-container">
-            <h1>My Projects</h1>
-            {projectList}
+        <section id="projects" className="project">
+            <div className="section">
+                <div className="content-container">
+                <h1 className="section-title">MY PROJECTS</h1>
+                {projectList}
+                </div>
             </div>
+            
         </section>
     )
 }
