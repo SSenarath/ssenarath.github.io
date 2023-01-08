@@ -84,8 +84,8 @@ header {
    margin:  0 -0.2rem;
 }
 
-button, .btn {
-  padding: 5px;
+.btn {
+  padding: 0.5rem;
   background-color: #fa8072;
   color: black;
   border-radius: 5px;
@@ -105,6 +105,7 @@ button, .btn {
 
 
 .hero {
+  margin-top: -5rem;
   background:rgb(240, 229, 229);
   height: 52.5rem;
   display: flex;
@@ -159,12 +160,12 @@ button, .btn {
 
 .intro-links {
   display: flex;
-  padding: 0;
+  gap: 1rem;
 
 }
 
 .intro-links a {
-  margin-right: 0.5rem;
+  margin-right: 0;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -398,6 +399,11 @@ header h4 {
    margin:  0 -0.2rem;
 }
 
+.btn {
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+}
+
 .header-navbar a {
   font-size: 0.45rem;
 }
@@ -405,8 +411,9 @@ header h4 {
 /* hero formatting */
 
 .hero {
+    margin-top: -1.5rem;
     height: 15rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .section {
@@ -443,7 +450,6 @@ header h4 {
 }
 
 .intro-links a {
-  margin-right: 0;
   font-size: 0.5rem;
 }
 
