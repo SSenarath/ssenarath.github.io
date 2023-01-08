@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.1565933a.css",
-    "main.js": "/portfolio-website/static/js/main.2f271f9b.js",
+    "main.css": "/portfolio-website/static/css/main.16a216b0.css",
+    "main.js": "/portfolio-website/static/js/main.a0823caa.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/SEN-262524.JPG": "/portfolio-website/static/media/SEN-262524.7a33c44df376655a7be4.JPG",
+    "static/media/restaurant.png": "/portfolio-website/static/media/restaurant.d9b33aa1dc7f380028d3.png",
     "static/media/pawmates.jpg": "/portfolio-website/static/media/pawmates.b17236e23df54d5db49d.jpg",
     "static/media/calculator.png": "/portfolio-website/static/media/calculator.6ffbdc1a456e70e711b7.png",
+    "static/media/color-scheme.png": "/portfolio-website/static/media/color-scheme.37c2343d0898d9c4bcf8.png",
     "index.html": "/portfolio-website/index.html",
-    "main.1565933a.css.map": "/portfolio-website/static/css/main.1565933a.css.map",
-    "main.2f271f9b.js.map": "/portfolio-website/static/js/main.2f271f9b.js.map",
+    "main.16a216b0.css.map": "/portfolio-website/static/css/main.16a216b0.css.map",
+    "main.a0823caa.js.map": "/portfolio-website/static/js/main.a0823caa.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1565933a.css",
-    "static/js/main.2f271f9b.js"
+    "static/css/main.16a216b0.css",
+    "static/js/main.a0823caa.js"
   ]
 }
