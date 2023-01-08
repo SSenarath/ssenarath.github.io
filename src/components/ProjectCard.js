@@ -5,7 +5,7 @@ export default function ProjectCard({item}){
     return (
         <div className="projectcard-container">
             <div className="container-left">
-                <img className="project-img" src={require(`../images/${item.coverImg}`)} alt="Sanduni Senarath in a white blouse smiling"/>
+              <a target="_blank" href={item.websiteLink}><img className="project-img" src={require(`../images/${item.coverImg}`)} alt="Sanduni Senarath in a white blouse smiling"/></a>  
             </div>
             <div className="container-right">
                 <h2>{item.title}</h2>

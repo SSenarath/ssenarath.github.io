@@ -40,8 +40,7 @@ export default {
             meaning that all they do is simply give us an idea for the project and from that point on its our
             responsibility to figure out the logic behind the code, styles and to find documentation that might help
             us implement new methods and functions. Through this project, I was able to practice my front end
-            development skills using my knowledge of HTML, CSS and JavaScript as well as the Chrome DevTools
-            which I used for debugging.`,
+            development skills.`,
             coverImg: "calculator.png",
             websiteLink: "https://ssenarath.github.io/calculator/",
             githubRepoLink: "https://github.com/SSenarath/calculator",
