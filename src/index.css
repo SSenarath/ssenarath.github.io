@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  background-color: rgb(240, 229, 229);
+  background-color: #f3f1f1;
 }
 main {
   display: flex;
@@ -27,39 +27,58 @@ h4 {
 header {
   padding: 10px;
   display: flex;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #C3C3C3;
   height: 3rem;
   align-items: center;
-}
-
-small {
-  font-size: 1rem;
-  margin-left: 2px;
-  font-weight: 300;
-  
+  background: #FDC3BC;
 }
 
 .header-navbar {
   margin-left: auto;
   display: flex;
-  gap: 2rem;
+  gap: 0.7rem;
   align-items: center;
-  height: 10px;
+  height: 1.5rem;
   
 }
 
-.resume-btn {
-  border: 1px solid black;
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #808080;
+}
+
+
+.navbar-item img {
+  width: 1.7rem;
+}
+
+.projects img {
+   width:2.4rem
+}
+
+.btn {
   padding: 5px;
-  background-color: salmon;
+  background-color: #fa8072;
   color: black;
   border-radius: 5px;
 }
 
+.btn:hover {
+  background-color: #C3C3C3;
+}
+
 a {
-  color: grey;
+  color: #808080;
   text-decoration: none;
   font-size: 1rem;
+  margin-left: 0.2rem;
 }
 
 
@@ -67,24 +86,58 @@ a {
 
 
 .hero {
-  padding: 0 50px;
-  border-bottom: 2px solid black;
-  height: 650px;
+  background:rgb(240, 229, 229);
+  height: 42rem;
   display: flex;
-
 }
 
 
-.introduction {
-  width: 700px;
+.section {
+  display: flex;
+  width: 85rem;
   margin: auto;
+  font-size: 1rem;
+  justify-content: space-between;
+  border: 2px solid white;
 
 }
 
 .introduction h1 {
   font-size: 4rem;
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
+
+.job-title {
+  margin-top: 0;
+}
+
+.introduction .left-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.introduction .right-container {
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.profile-picture {
+  max-height:400px;
+  width: 400px;
+  object-fit: cover;
+  object-position: top -10px right 0px;
+  border-radius: 5rem;
+  display: block;
+  
+
+}
+
+
 
 .intro-links {
   display: flex;
@@ -93,58 +146,40 @@ a {
 }
 
 .intro-links a {
-  width: 100px;
+  width: 6rem;
   text-align: center;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 5px;
-  background-color: salmon;
-  color: black;
   font-size: 1.5rem;
 }
 
+
 /* About formatting */
 
-.section {
-  height: 650px;
-  align-items: center;
-  border-bottom: 2px solid black;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-
-.content-container {
-  width: 55%
+.skills{
+    height: 42rem;
+    display: flex;
 }
 
 
-.about-container {
-  display: flex;
-}
-
-
-.content-container h1 {
-  font-weight: 400;
-  text-decoration: underline;
-  margin-top: 0;
-}
-
-.container-right {
+.skills .section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  font-size: 1.4rem;
 }
-.profile-picture {
-  max-height:350px;
-  width: 350px;
-  object-fit: cover;
-  object-position: top -10px right 0px;
-  border-radius: 100%;
-  margin-right: 25px;
 
+.skill-category {
+  display: flex;
+  align-items: center;
 }
+
+.skill-category p, .skill-category h2  {
+  margin-right: 0.45rem;
+}
+ 
+
+.skill-category p {
+ padding-top: 0.2rem;
+}
+
 
 /* Toolkit Formatting */
 
@@ -198,5 +233,6 @@ a {
 .bold {
   font-weight: 800;
 }
+
 
 

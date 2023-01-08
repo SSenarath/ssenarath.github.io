@@ -5,21 +5,38 @@ import data from "./data";
 
 export default function About(){
     return(
-        <section className="section">
-            <div className="content-container">
-                <h1>About Me</h1>
-                <div className="about-container">
-                    <div className="container-left">
-                        <img className="profile-picture" src={MyImage} alt="Sanduni Senarath in a white blouse smiling"/>
+        <div className="skills">
+            <section className="section">
+                    <h1>MY SKILLS & TOOLS</h1>
+                    <div className="skill-category">
+                        <h2>Languages: </h2>
+                        <p>Node.js |</p>
+                        <p>JavaScript </p>
                     </div>
-                    <div className="container-right">
-                        <h2>SKILLS & TOOLS</h2>
-                        <Toolkit project={data.generalTools} key={"data.generalTools"}/>
-                        <h2>Background</h2>
-                        <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                    <div className="skill-category">
+                        <h2>Frameworks: </h2>
+                        <p>ReactJS |</p>
+                        <p>ExpressJS |</p>
+                        <p>Mongoose</p>
                     </div>
-                </div>
-            </div>
-        </section>
+                    <div className="skill-category">
+                        <h2>Databases: </h2>
+                        <p>MongoDB</p>
+                    </div>
+                    <div className="skill-category">
+                        <h2>Databases: </h2>
+                        <p>HTML |</p>
+                        <p>CSS |</p>
+                        <p>Git |</p>
+                        <p>Github |</p>
+                        <p>VS Code |</p>
+                        <p>Netbeans |</p>
+                        <p>Chrome DevTools |</p>
+                        <p>Linux (Ubuntu) |</p>
+                        <p>Figma</p>
+                    </div>
+            </section>
+        </div>
+        
     )
 }
