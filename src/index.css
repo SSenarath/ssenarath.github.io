@@ -8,7 +8,6 @@
 a {
   text-decoration: none;
   cursor: pointer;
-  margin-right: 0.5rem;
 }
 
 body {
@@ -96,7 +95,7 @@ header {
 
 .btn:hover {
   background-color: #C3C3C3;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 
@@ -141,6 +140,7 @@ header {
 .introduction .right-container {
   display: flex;
   justify-content: center;
+  align-items: center;
  
 
 }
@@ -314,7 +314,8 @@ margin-bottom: 0;
 }
 
 
-.icon-box{  padding: 0.5rem;
+.icon-box{ 
+  padding: 0.5rem;
   background-color: #fa8072;
   border-radius: 100%;
   padding: 1rem;
@@ -432,7 +433,6 @@ header h4 {
 .introduction .left-container {
   width: 50%;
 }
-
 
 .profile-picture {
   max-height:8rem;
@@ -564,7 +564,6 @@ padding-top: 0.1rem;
 
 
 .icon-box{  
-  padding: 0.5rem;
   padding: 0.5rem;
   
 }

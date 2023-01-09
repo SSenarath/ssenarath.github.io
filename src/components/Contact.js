@@ -17,13 +17,13 @@ export default function Contact(){
                     </div>
                     <div className="option">
                         <div className="icon-box">
-                            <img src={Email}/>
+                        <a href="mailto: sanduni.senarath@outlook.com"><img src={Email}/></a>
                         </div>
                         <a href="mailto: sanduni.senarath@outlook.com">sanduni.senarath@outlook.com</a>
                     </div>
                     <div className="option">
                         <div className="icon-box">
-                            <img src={LinkedIn}/>
+                        <a href="www.linkedin.com/in/ssenarath"><img src={LinkedIn}/></a>
                         </div>
                         <a href="www.linkedin.com/in/ssenarath">linkedin.com/in/ssenarath</a>
                     </div>
