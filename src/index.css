@@ -117,8 +117,7 @@ header {
   margin: auto;
   font-size: 1.3rem;
   justify-content: space-between;
-  border: 2px solid black;
-
+  
 }
 
 .introduction h1 {
@@ -420,7 +419,7 @@ header h4 {
 
 .section {
   width: 19rem;
-  font-size: 0.35em;
+  font-size: 0.01em;
   display: flex;
   justify-content: center;
   gap: 1rem;

@@ -23,9 +23,9 @@ export default function Contact(){
                     </div>
                     <div className="option">
                         <div className="icon-box">
-                        <a href="www.linkedin.com/in/ssenarath"><img src={LinkedIn}/></a>
+                        <a href="https://www.linkedin.com/in/ssenarath/"><img src={LinkedIn}/></a>
                         </div>
-                        <a href="www.linkedin.com/in/ssenarath">linkedin.com/in/ssenarath</a>
+                        <a href="https://www.linkedin.com/in/ssenarath/">linkedin.com/in/ssenarath</a>
                     </div>
                 </div>
             </div>
