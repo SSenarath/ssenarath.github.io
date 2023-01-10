@@ -117,6 +117,7 @@ header {
   margin: auto;
   font-size: 1.3rem;
   justify-content: space-between;
+  border: 2px solid black;
 
 }
 
@@ -419,7 +420,7 @@ header h4 {
 
 .section {
   width: 19rem;
-  font-size: 0.4rem;
+  font-size: 0.35em;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -509,7 +510,7 @@ padding-top: 0.1rem;
   padding: 0;
   border-radius: 1rem;
   align-items: center;
-  font-size: 0.35rem;
+  font-size: 0.8em;
 }
 
 .projectcard-container h1 {
@@ -605,12 +606,6 @@ footer {
   
   }
 
-
-  
-  
-  
-
-  
   /* Project Formatting */
   
   .project{
@@ -621,11 +616,6 @@ footer {
 
     font-size: 0.25rem;
   }
-  
-
-
- 
-  
   
   
 }
