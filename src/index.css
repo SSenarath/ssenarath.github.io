@@ -586,3 +586,46 @@ footer {
 }
 
 
+@supports (-webkit-touch-callout: none) {
+
+
+  .section {
+    font-size: 0.3rem;
+  }
+  
+  .introduction h1 {
+    font-size: 0.7rem;
+  
+  }
+  
+  .profile-picture {
+    max-height:8rem;
+    width: 8rem;
+    border-radius: 1rem;
+  
+  }
+
+
+  
+  
+  
+
+  
+  /* Project Formatting */
+  
+  .project{
+    height: 46rem;
+  }
+  
+  .projectcard-container {
+
+    font-size: 0.25rem;
+  }
+  
+
+
+ 
+  
+  
+  
+}
