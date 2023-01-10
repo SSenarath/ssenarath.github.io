@@ -413,16 +413,23 @@ header h4 {
 
 .hero {
     margin-top: -1.5rem;
-    height: 15rem;
+    height: 20rem;
     padding-top: 1.5rem;
+    
 }
 
 .section {
   width: 19rem;
   font-size: 0.01em;
   display: flex;
-  justify-content: center;
   gap: 1rem;
+  flex-direction: column-reverse;
+  
+}
+
+.hero .section {
+  align-items: center;
+  
 }
 
 .introduction h1 {
@@ -431,7 +438,13 @@ header h4 {
 }
 
 .introduction .left-container {
-  width: 50%;
+  width: 100%;
+
+  text-align: center;
+}
+
+.about-me {
+  margin: 0.7rem 0;
 }
 
 .profile-picture {
@@ -446,6 +459,8 @@ header h4 {
 .intro-links {
   padding: 0;
   gap: 0.5rem;
+
+  justify-content: center;
 
 }
 
@@ -500,7 +515,7 @@ padding-top: 0.1rem;
 /* Project Formatting */
 
 .project{
-  height: 46rem;
+  height: 55rem;
 }
 
 .projectcard-container {
@@ -510,6 +525,8 @@ padding-top: 0.1rem;
   border-radius: 1rem;
   align-items: center;
   font-size: 0.8em;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projectcard-container h1 {
@@ -518,23 +535,32 @@ padding-top: 0.1rem;
 
 
 .projectcard-container .container-left {
- width: 10rem;
- height: 10rem;
- margin: 1.2rem 0 1.2rem 1.2rem;
+ padding: 1rem 0;
+ width: 7rem;
+ height: 7rem;
+ margin: 0;
+
 }
 
 .projectcard-container .container-right {
-  margin-left: 1rem;
-  margin-right: 1.2rem;
-  height: 10rem;
+  margin: 0;
+  text-align: center;
+  width: 90%;
   gap: 0.5rem;
 
+  padding-bottom: 1rem
+
+}
+
+.projectcard-container .toolkit {
+  justify-content: center;
 }
 
 .project-links {
   display: flex;
   gap: 0.5rem;
   margin-top: 0;
+  justify-content: center;
 }
 
 
@@ -585,36 +611,3 @@ footer {
 
 }
 
-
-@supports (-webkit-touch-callout: none) {
-
-
-  .section {
-    font-size: 0.3rem;
-  }
-  
-  .introduction h1 {
-    font-size: 0.7rem;
-  
-  }
-  
-  .profile-picture {
-    max-height:8rem;
-    width: 8rem;
-    border-radius: 1rem;
-  
-  }
-
-  /* Project Formatting */
-  
-  .project{
-    height: 46rem;
-  }
-  
-  .projectcard-container {
-
-    font-size: 0.25rem;
-  }
-  
-  
-}
