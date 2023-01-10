@@ -537,7 +537,8 @@ padding-top: 0.1rem;
 .projectcard-container .container-left {
  padding: 1rem 0;
  width: 7rem;
- height: 7rem;
+ height: 8.5rem;
+ object-fit: fill;
  margin: 0;
 
 }
