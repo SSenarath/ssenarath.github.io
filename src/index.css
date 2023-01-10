@@ -18,6 +18,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  border: 2px solid black;
+  height: 100%;
 }
 
 /* typography */
@@ -568,11 +570,11 @@ padding-top: 0.1rem;
 /* contact formatting  */
 
 .contact{
-  height: 25rem;
+  height: 10rem;
 }
 
 .contact-container {
-  margin-top: 5rem;
+  margin-top: 1rem;
   gap: 1rem;
   flex-direction: column;
 
@@ -580,7 +582,7 @@ padding-top: 0.1rem;
 
 .contact-options {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 
@@ -588,6 +590,7 @@ padding-top: 0.1rem;
 .option {
   gap: 0.5rem;
   font-size: 0.5rem;
+  width: 12em;
 }
 
 
