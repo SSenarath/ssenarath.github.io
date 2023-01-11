@@ -181,8 +181,9 @@ header {
 /* Skills formatting */
 
 .skills{
-    height: 46rem;
+    height: 35rem;
     display: flex;
+    padding: 8em 0;
     
 }
 
@@ -197,10 +198,10 @@ text-decoration: underline  solid 2px #C3C3C3;
 margin: 0;
 
 
+
 }
 
 .skills .section {
-  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   font-size: 1.7rem;

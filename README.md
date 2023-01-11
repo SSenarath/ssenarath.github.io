@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Sanduni's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the first iteration of my person portfolio site which I built using the ReactJS framework.  
 
-## Available Scripts
+## Table of Contents
+* [Demo](#demo)
+* [Technologies](#technologies)
+<!-- * [Overview](#overview)
+    * [Requirements](#requirements)
+    * [Screenshots](#screenshots) -->
+* [Next Steps](#next-steps)
+<!-- * [Useful Resources](#useful-resources) -->
+* [Author](#author)
 
-In the project directory, you can run:
+## Demo
+* Live Site URL: [https://ssenarath.github.io/portfolio-website/](https://github.com/SSenarath/portfolio-website)
 
-### `npm start`
+## Technologies
+**Built with:**
+* ReactJS
+* JavaScript
+* HTML
+* CSS
+	
+<!-- ## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Screenshots -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- **How to Use:**
 
-### `npm test`
+![](https://github.com/HSenarath/random-password-generator/blob/915b8c9749e830a0ae1e6fac05377cf15e511aa6/screenshots/password-generator-demo.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Demo of the Webpage's Responsiveness**
 
-### `npm run build`
+![](https://github.com/HSenarath/random-password-generator/blob/915b8c9749e830a0ae1e6fac05377cf15e511aa6/screenshots/password-generator-responsive.gif) -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Next Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[x] Have current resume button in navbar direct user to a new page that showcases my resume and have the download resume option on the new page. 
+[x] Improve responsiveness for all screen types. 
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/hirunisenarath)
+Github - [@ssenarath](https://github.com/SSenarath) -->
