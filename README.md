@@ -37,10 +37,10 @@ This is the first iteration of my person portfolio site which I built using the 
 ## Next Steps
 
 
-[x] Have current resume button in navbar direct user to a new page that showcases my resume and have the download resume option on the new page. 
-[x] Improve responsiveness for all screen types. 
+* Have current resume button in navbar direct user to a new page that showcases my resume and have the download resume option on the new page. 
+* Improve responsiveness for all screen types. 
 
 ## Author
 
-LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/hirunisenarath)
-Github - [@ssenarath](https://github.com/SSenarath) -->
+* LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/hirunisenarath)
+* Github - [@ssenarath](https://github.com/SSenarath) -->
