@@ -118,8 +118,13 @@ header {
   width: 85rem;
   margin: auto;
   font-size: 1.3rem;
-  justify-content: space-between;
+  justify-content: center;
   
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
 }
 
 .introduction h1 {
@@ -178,21 +183,29 @@ header {
 .skills{
     height: 46rem;
     display: flex;
+    
+}
+
+.skills, .project, .contact {
+  margin: 3rem;
 }
 
 .section-title /*applies to all sections */
 {
 font-size: 3rem;
 text-decoration: underline  solid 2px #C3C3C3;
-margin-bottom: 0;
+margin: 0;
+
 
 }
 
 .skills .section {
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
-  font-size: 1.6rem;
-  height: 30rem
+  font-size: 1.7rem;
+  height: 35rem;
+  justify-content: space-between;
 }
 
 .skill-category {
@@ -242,8 +255,8 @@ margin-bottom: 0;
 /* Project Formatting */
 
 .project{
-  height: 130rem;
   display: flex;
+  padding-top: 5rem;
   
 }
 
@@ -289,16 +302,20 @@ margin-bottom: 0;
 /* contact formatting  */
 
 .contact{
-  height: 35rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 45rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-container {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5rem;
+
 }
 
 .contact-options {
@@ -364,8 +381,233 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  /* header formatting */
 
-/* formatting */
+  header {
+    padding: 0.5rem;
+    height: 1rem;
+  
+  }
+  
+  
+  header h4 {
+    font-size: 1rem;
+  
+  }
+  
+  .header-navbar {
+    gap: 0;
+    
+  }
+  
+  
+  .navbar-item img {
+    width: 0.7rem;
+  }
+  
+  .navbar-item a{
+    margin-right: 0.4rem;
+    font-size: 0.45rem;
+    margin-left: 0.1rem;
+  
+  }
+  
+  
+  .projects img {
+     width:1.1rem;
+     margin:  0 -0.1rem;
+  }
+  
+  .btn {
+    padding: 0.25rem;
+    border-radius: 0.2rem;
+  }
+  
+  .header-navbar a {
+    font-size: 0.45rem;
+  }
+
+  /* hero fomatting  */
+
+  .hero {
+    margin-top:-2.5rem;
+    height: 21.5rem;
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
+
+  }
+  
+  
+  .section {
+    flex-direction: column-reverse;
+    width: 20rem;
+    font-size: 0.7rem;
+    
+    
+  }
+
+  .introduction h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .introduction .left-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .introduction .right-container {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-picture {
+    max-height:8rem;
+    width: 8rem;
+    border-radius: 1rem;
+  }
+  
+  .intro-links {
+    justify-content: center;
+  }
+  
+  .intro-links a {
+    font-size: 1rem;
+  }
+
+  /* Skills formatting */
+
+.skills{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 11.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills, .project, .contact {
+margin: 0rem;
+}
+
+.section-title /*applies to all sections */
+{
+font-size: 1.5rem;
+text-decoration: underline  solid 2px #C3C3C3;
+margin: 0;
+
+
+}
+
+.skills .section {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 0.67rem;
+height: 11rem;
+}
+
+.skill-category {
+display: flex;
+align-items: center;
+}
+
+.skill-category p, .skill-category h2  {
+margin-right: 0.45rem;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.skill-category p {
+padding-top: 0.15rem;
+}
+
+
+/* Project Formatting */
+
+.project{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.projectcard-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.projectcard-container h1 {
+  margin: 0;
+}
+
+.projectcard-container .container-left {
+ margin-left: 0rem;
+ height: 17.5em;
+ display: flex;
+ justify-content: center;
+}
+
+.projectcard-container .container-right {
+  width: 100%;
+  margin-left: 0rem;
+  text-align: center;
+}
+
+.project-links {
+  margin-top: 0;
+  justify-content: center;
+}
+
+
+.project-img {
+  width: 10rem;
+  height: 12rem;
+  object-fit: cover;
+  margin-right: 0;
+}
+   
+.project .toolkit {
+  row-gap: 0px;
+  justify-content: center;
+}
+
+/* contact formatting  */
+
+.contact{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 28rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+}
+
+.contact-options {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+}
+
+/* formatting
 
 header {
   padding: 0.5rem;
@@ -411,7 +653,7 @@ header h4 {
   font-size: 0.45rem;
 }
 
-/* hero formatting */
+hero formatting
 
 .hero {
     margin-top: -1.5rem;
@@ -426,8 +668,11 @@ header h4 {
   display: flex;
   gap: 1rem;
   flex-direction: column-reverse;
+  border: 2px solid black;
   
 }
+
+
 
 .hero .section {
   align-items: center;
@@ -471,22 +716,24 @@ header h4 {
 }
 
 
-
-
-/* Skills formatting */
+Skills formatting
 
 .skills{
-  height: 15rem;
+  height: 5rem;
 }
 
-.section-title /*applies to all sections */
+.section-title applies to all sections
 {
+
 font-size: 1rem;
+
 }
 
 .skills .section {
 font-size: 0.5rem;
-height: 10rem
+height: 10rem;
+margin: 0;
+padding-top: 2em;
 }
 
 
@@ -502,7 +749,7 @@ margin-bottom: 0;
 padding-top: 0.1rem;
 }
 
-/* Toolkit Formatting */
+Toolkit Formatting
 
 .toolkit {
   display: flex;
@@ -514,10 +761,10 @@ padding-top: 0.1rem;
 
 
 
-/* Project Formatting */
+Project Formatting
 
 .project{
-  height: 63em;
+  padding-top: 2em;
 }
 
 .projectcard-container {
@@ -567,14 +814,17 @@ padding-top: 0.1rem;
 }
 
 
-/* contact formatting  */
+contact formatting 
 
 .contact{
-  height: 10rem;
+  height: 5rem;
+  border: 2px solid black;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 .contact-container {
-  margin-top: 1rem;
+
   gap: 1rem;
   flex-direction: column;
 
@@ -607,12 +857,9 @@ padding-top: 0.1rem;
   margin-right: 0;
 }
 
-/* footer formatting */
+footer formatting
 
 footer {
   font-size: 0.5rem;
 }
-
-
-}
-
+ */
