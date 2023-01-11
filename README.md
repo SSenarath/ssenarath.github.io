@@ -43,4 +43,4 @@ This is the first iteration of my person portfolio site which I built using the 
 ## Author
 
 * LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/hirunisenarath)
-* Github - [@ssenarath](https://github.com/SSenarath) -->
+* Github - [@ssenarath](https://github.com/SSenarath)
