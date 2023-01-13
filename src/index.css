@@ -247,8 +247,12 @@ margin: 0;
   display: flex;
   align-items: center;
   column-gap: 5px;
-  row-gap: 10px;
+
   flex-wrap: wrap;
+}
+
+.toolkit h1 {
+  margin: 0;
 }
 
 

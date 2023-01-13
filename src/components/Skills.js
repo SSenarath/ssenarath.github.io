@@ -10,7 +10,7 @@ export default function About(){
                         <p>Node.js |</p>
                         <p>JavaScript |</p>
                         <p>Java |</p>
-                        <p>Phython </p>
+                        <p>Python </p>
                     </div>
                     <div className="skill-category">
                         <h2>Frameworks: </h2>
@@ -29,7 +29,7 @@ export default function About(){
                             <p>CSS |</p>
                             <p>Git |</p>
                             <p>Github |</p>
-                            <p>VS Code |</p>
+                            <p>Visual Studio Code |</p>
                             <p>Netbeans |</p>
                             <p>Chrome DevTools |</p>
                             <p>Linux (Ubuntu) |</p>

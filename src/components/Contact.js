@@ -25,7 +25,7 @@ export default function Contact(){
                         <div className="icon-box">
                         <a href="https://www.linkedin.com/in/ssenarath/"><img src={LinkedIn}/></a>
                         </div>
-                        <a href="https://www.linkedin.com/in/ssenarath/">linkedin.com/in/ssenarath</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/ssenarath/">linkedin.com/in/ssenarath</a>
                     </div>
                 </div>
             </div>
