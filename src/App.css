@@ -49,7 +49,6 @@ h3, p {
 .section-title {
     text-decoration: underline #fa8072;
     font-size: 2rem;
-    margin-top: 0;
 }
 
 /* header formatting  */
@@ -411,6 +410,7 @@ footer {
     }
 
     #skills .skill-category {
+        
         font-size: 1.5rem;
     }
 
@@ -437,7 +437,7 @@ footer {
 
     .container {
         margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
         width: 90%;
     }
 
