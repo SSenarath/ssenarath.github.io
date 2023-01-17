@@ -6,16 +6,22 @@ export default function Toolkit({project}){
         const tools = project.map(each => {
             i++;
             if(i < (project.length-1)){
-                return <div>{each} | </div>
+                return (
+                <>
+                <p>{each}</p>
+                <p>| </p>
+                </>)
             } else {
                 return <div>{each}</div>
             }
             
         })
         return (
-        <section className="toolkit">
-            <h1>Tools Used: </h1>
+        <section className="skill-category dev">
+            <h3>Tools Used: </h3>
+            <div className="dev-tools">
             {tools}
+            </div>
         </section>
         
     )
