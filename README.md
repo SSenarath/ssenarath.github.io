@@ -40,5 +40,5 @@ Please note, my resume can be downloaded onto your device by clicking the top ri
 
 ## Author
 
-* LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/hirunisenarath)
+* LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/ssenarath)
 * Github - [@ssenarath](https://github.com/SSenarath)
