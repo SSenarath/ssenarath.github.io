@@ -5,8 +5,8 @@ import LinkedIn from "../images/contact/linkedin.png"
 
 export default function Contact(){
     return(
-        <section id="contact" className="contact">
-            <div className="section contact-container">
+        <section id="contact">
+            <div className="container">
                 <h1 className="section-title">GET IN TOUCH</h1>
                 <div className="contact-options">
                     <div className="option">
