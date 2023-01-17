@@ -11,6 +11,8 @@ body {
     margin: 0;
     background-color: #f3f1f1;
     font-family: 'Ubuntu', sans-serif;
+    /* border: 2px solid green; */
+    
     
     
 
@@ -20,8 +22,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* border: 2px solid black; */
+    /* border: 2px solid black;   */
 }
 
 /* =================
@@ -87,6 +88,11 @@ h3, p {
     border-radius: 0.25rem;
    }
 
+   .btn:hover {
+    background-color: #808080;
+    transform: scale(1.1);
+   }
+
 /* =================
    Layout
    ================= */
@@ -117,9 +123,9 @@ nav {
 
 
 header {
+    align-self: stretch;
     top: 0;
     position: sticky;
-    width: 100%;
     border-bottom: 2px solid #C3C3C3;
     background: #FDC3BC;
     padding: 0.5em 0em;
@@ -238,7 +244,7 @@ header .container {
 /* contact formatting  */
 
 #contact {
-    width: 100%;
+    align-self: stretch;
     /* border: 2px solid green; */
 }
 
@@ -274,7 +280,8 @@ footer {
     text-align: center;
     color: #808080;
     background: #FDC3BC;
-    width: 100%;
+    align-self: stretch;
+   
   }
 
 /* =================
