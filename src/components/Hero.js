@@ -8,7 +8,7 @@ export default function Hero(){
         <section id="hero" >
             <div className="container">
                 <div className="hero-left-container">
-                    <h1>Hello, I'm Sanduni | <br/> Junior Developer </h1>
+                    <h1 className="main-intro">Hello, I'm Sanduni | <br/> Junior Developer </h1>
                     <p className="about-me p-lineheight" >As a former engineering student and project manager who always ended up being the tech guru of
                         a team, it became obvious that I should make a change. While it wasn't the easiest decision, I am now happily pursuing my passions and am learning to code through online resources to create applications to solve real world
                         problems for the people around me.</p>

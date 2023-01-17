@@ -3,7 +3,7 @@ import React from "react";
 export default function About(){
     return(
         <div id ="skills">
-            <section className="container">
+            <div className="container">
                     <h1 className="section-title">MY SKILLS & TOOLS</h1>
                     <div className="skill-category">
                         <h3>Languages: </h3>
@@ -49,7 +49,7 @@ export default function About(){
                                 <p>Figma</p>
                             </div>
                     </div>
-            </section>
+            </div>
         </div>
         
     )

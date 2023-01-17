@@ -7,8 +7,8 @@ export default function Header(){
     return(
 
         <header>
-            <div className="container ">
-                <nav className = "container header-navbar">
+            
+                <nav className = "header-navbar">
                         <Link className="my-name" activeClass="active" to="hero" spy={true} smooth={true}>
                             <h4>Sanduni Senarath</h4>
                         </Link>
@@ -36,7 +36,7 @@ export default function Header(){
                             </div>
                         </div>
                     </nav>
-            </div>
+        
         </header>
     )
 }

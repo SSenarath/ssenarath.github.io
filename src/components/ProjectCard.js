@@ -10,7 +10,7 @@ export default function ProjectCard({item}){
             <div className="projectcard-right-info">
                 <h2>{item.title}</h2>
                 <Toolkit project={item.tools} key={item.id}/>
-                <p className="project-description p-lineheight">{item.description}</p>
+                <p className="p-lineheight">{item.description}</p>
                 <div className="links">
                     <a className = "btn" target="_blank" href={item.websiteLink}>Live Site</a>
                     <a className = "btn" target="_blank" href={item.githubRepoLink}>Github Repository</a>
