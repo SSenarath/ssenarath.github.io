@@ -1,6 +1,6 @@
 # Sanduni's Portfolio Website
 
-This is the first iteration of my personal portfolio site which I built using the ReactJS framework. This is also my first attempt at styling a web application using the mobile first design approach to make website responsive for a wide range of screen sizes. 
+This is the first iteration of my personal portfolio site which I built using the ReactJS framework. This is also my first attempt at styling a application using the mobile first design approach to make it more responsive for a wide range of screen sizes. 
 
 ## Table of Contents
 * [Demo](#demo)
