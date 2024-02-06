@@ -14,21 +14,21 @@ export default function Header(){
                         </Link>
                         <div className="navbar-right">
                             <Link activeClass="active" to="skills" spy={true} smooth={true}>
-                            <div className="navbar-item flex">
+                            <div className="navbar-item">
                                 <img src={require(`../images/navbar/skills.png`)}/>
-                                <a className="self-center">Skills</a>
+                                <a>Skills</a>
                             </div>
                             </Link>
                             <Link activeClass="active" to="projects" spy={true} smooth={true}>
                                 <div className="navbar-item projects">
                                     <img src={require(`../images/navbar/projects.png`)}/>
-                                    <a className="self-center">Projects</a>
+                                    <a>Projects</a>
                                 </div>
                             </Link>
                             <Link activeClass="active" to="contact" spy={true} smooth={true}>
                                 <div className="navbar-item">
                                     <img src={require(`../images/navbar/contact.png`)}/>
-                                    <a className="self-center">Contact</a>
+                                    <a>Contact</a>
                                 </div>
                             </Link>
                             <div className="navbar-item">
