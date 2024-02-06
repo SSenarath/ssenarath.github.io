@@ -12,7 +12,7 @@ This is the first iteration of my personal portfolio site which I built using th
 * [Author](#author)
 
 ## Demo
-* Live Site URL: [https://ssenarath.github.io/portfolio-website/](https://ssenarath.github.io/portfolio-website/)
+* Live Site URL: [https://portfolio-website-blond-nine.vercel.app/](https://portfolio-website-blond-nine.vercel.app/)
 
 ## Technologies
 **Built with:**
