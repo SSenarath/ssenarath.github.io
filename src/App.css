@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 * > {
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 html {
@@ -16,7 +15,6 @@ body {
     background-color: #f3f1f1;
     font-family: 'Ubuntu', sans-serif;
     /* border: 2px solid green; */
-    
     
     
 
