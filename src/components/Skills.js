@@ -19,10 +19,6 @@ export default function About(){
                         <h3>Frameworks: </h3>
                         <p>ReactJS</p>
                         <p>|</p>
-                        <p>Vue.js</p>
-                        <p>|</p>
-                        <p>Tailwind CSS</p>
-                        <p>|</p>
                         <p>ExpressJS</p>
                         <p>|</p>
                         <p>Mongoose</p>
