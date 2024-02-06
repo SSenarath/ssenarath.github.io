@@ -17,8 +17,8 @@ export default {
       title: "Restaurant Management App",
       description: `At the beginning of my coding journey, I developed a restaurant management app with my sister using Node.js that can process orders, track order history and store product details to fulfill the business need of my mom’s small catering business. Back then, lacking experience in front-end frameworks, the code wasn't as streamlined as I would have preferred. Recently, I started re-creating the application using my experience with Nuxt, Element UI and Tailwind CSS. While the application remains a work in progress, you can explore the current status below. Please note that the demo version excludes real ingredient information (those are family secrets :))`,
       coverImg: "restaurant.png",
-      websiteLink: "https://luneil-cafe-demo.up.railway.app/",
-      githubRepoLink: "https://github.com/HSenarath/luneil-cafe-demo",
+      websiteLink: "https://main--luneil-cafe-management-app.netlify.app/",
+      githubRepoLink: "https://github.com/SSenarath/luneil-cafe-demo-frontend-v2",
       tools: [
         "Nuxt",
         "Javascript",

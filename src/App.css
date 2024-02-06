@@ -161,8 +161,6 @@ header .container {
 
 #hero .container {
     flex-direction: column-reverse;
-   
-    padding-top: 4em;
 }
 
 .hero-left-container {
