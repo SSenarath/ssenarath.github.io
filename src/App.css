@@ -415,7 +415,7 @@ footer {
     }
 
     #skills .skill-category {
-        
+        flex-wrap: wrap;
         font-size: 1.5rem;
     }
 
@@ -461,7 +461,7 @@ footer {
 
     #skills .container {
         height: 30em;
-        justify-content: space-between;
+        gap: 2rem;
     }
 
     /* contact formatting */
