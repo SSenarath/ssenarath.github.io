@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * > {
     box-sizing: border-box;
     
@@ -32,6 +36,7 @@ main {
 /* general formatting */
 
 h1 {
+    @apply font-bold;
     margin-bottom: 0;
 }
 
@@ -100,7 +105,7 @@ h3, p {
 
 .container, nav, .navbar-item, .navbar-right, .hero-left-container, .skill-category, .dev-tools, .projectcard, .projectcard-right-info, .option, .links {
     display: flex;
-    align-items: center;
+    align-items: start;
     /* border: 2px solid black; */
 }
 
@@ -162,12 +167,14 @@ header .container {
 }
 
 #hero .container {
+    @apply items-center;
     flex-direction: column-reverse;
    
-    padding-top: 4em;
+    padding-top: 2em;
 }
 
 .hero-left-container {
+    @apply items-center mt-2;
     flex-direction: column;
 }
 
@@ -188,6 +195,7 @@ header .container {
 
 #skills .container {
     flex-direction: column;
+    gap: 1em;
     align-items: flex-start;
 }
 
@@ -450,7 +458,7 @@ footer {
 
     .hero-left-container {
         height: 30em;
-        justify-content: space-between;
+
         width: 50%;
     }
 
@@ -461,10 +469,7 @@ footer {
 
     /* skills formatting  */
 
-    #skills .container {
-        height: 30em;
-        justify-content: space-between;
-    }
+  
 
     /* contact formatting */
 
