@@ -20,7 +20,7 @@ export default function Contact(){
                             <div className="icon-box">
                             <a href="mailto: sanduni.senarath@outlook.com"><img src={Email}/></a>
                             </div>
-                            <a href="mailto: sanduni.senarath@outlook.com">sanduni.senarath@outlook.com</a>
+                            <a href="mailto: sanduni.senarath@outlook.com">sandunisenarath@gmail.com</a>
                         </div>
                         <div className="option">
                             <div className="icon-box">
