@@ -2,3 +2,492 @@
 @tailwind components;
 @tailwind utilities;
 
+* > {
+    box-sizing: border-box; 
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    background-color: #f3f1f1;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 2px solid green; */
+    
+    
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black;   */
+}
+
+/* =================
+    Typography 
+   ================= */
+
+/* general formatting */
+
+h1 {
+    @apply font-bold;
+    margin-bottom: 0;
+}
+
+h3 {
+    white-space: nowrap;
+}
+h3, p {
+    margin: 0;
+}
+
+.p-lineheight {
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+.section-title {
+    text-decoration: underline #fa8072;
+    font-size: 2rem;
+}
+
+/* header formatting  */
+
+.my-name h4 {
+    margin: 0;
+}
+
+.navbar-item {
+    font-size: 0.7rem; /*10px*/
+    color: #808080;
+    text-decoration: none;
+    height: 2rem;
+    
+}
+
+.navbar-item:hover {
+    border-bottom: 1px solid #808080;
+}
+
+.option a {
+    text-decoration: none;
+    color: black
+}
+
+
+/* =================
+   Buttons
+   ================= */
+
+   .btn {
+    background-color: #fa8072;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+   }
+
+   .btn:hover {
+    background-color: #808080;
+    transform: scale(1.1);
+   }
+
+/* =================
+   Layout
+   ================= */
+
+
+.container, nav, .navbar-item, .navbar-right, .hero-left-container, .skill-category, .dev-tools, .projectcard, .projectcard-right-info, .option, .links {
+    display: flex;
+    align-items: start;
+    /* border: 2px solid black; */
+}
+
+nav {
+    width: 98%;
+    margin: auto;
+}
+
+.navbar-item{
+    gap:0.5em;
+}
+
+
+.container {
+    width: 90%;
+    margin: 2em auto;
+}
+
+/* header formatting */
+
+
+header {
+    align-self: stretch;
+    top: 0;
+    position: sticky;
+    border-bottom: 2px solid #C3C3C3;
+    background: #FDC3BC;
+    padding: 0.5em 0em;
+
+}
+
+header .container {
+    margin: 0 auto;
+}
+
+.my-name {
+    margin: 0 auto 0 0;
+    /* border: 2px solid black; */
+}
+
+.navbar-right {
+    gap: 0.5em;
+}
+
+
+.navbar-item img {
+    width: 1rem;
+}
+
+.projects img {
+    width:1.4rem;
+    margin:  0 -0.1em;
+ }
+
+/* hero formatting */
+
+#hero {
+    margin-top: -3.25em;
+}
+
+#hero .container {
+    @apply items-center;
+    flex-direction: column-reverse;
+   
+    padding-top: 2em;
+}
+
+.hero-left-container {
+    @apply items-center mt-2;
+    flex-direction: column;
+}
+
+.profile-picture {
+    width: 12.5em;
+    height: 12.5em;
+    border-radius: 0.75em;
+    object-fit: cover;
+    object-position: top -10px right 0px;
+
+}
+
+.links {
+    gap: 1em;
+}
+
+/* skills formatting  */
+
+#skills .container {
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.skill-category {
+    padding-top: 1em;
+}
+
+.skill-category, .dev-tools {
+    gap: 0.5em;
+    
+}
+
+.skill-category.dev {
+    align-items: flex-start;
+}
+
+.dev-tools {
+    flex-wrap: wrap;
+ 
+}
+
+/* projects formatting  */
+
+
+
+#projects .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+
+.projectcard {
+    /* border: 2px solid green; */
+    flex-direction: column;
+    background: #e9e9e9;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.project-img {
+    margin-top: 1em;
+    width: 14.4em;
+    height: 17.5em;
+    border-radius: 0.75em;
+    object-fit: cover;
+}
+
+.projectcard-right-info {
+    flex-direction: column;
+}
+
+
+/* contact formatting  */
+
+#contact {
+    align-self: stretch;
+    /* border: 2px solid green; */
+}
+
+#contact .container {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.option{
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.icon-box{ 
+    background-color: #fa8072;
+    border-radius: 100%;
+    padding: 1rem;
+    margin-top: 1em;
+    
+  }
+  
+  .option img { 
+    width: 3rem;
+  }
+
+/* footer formatting */
+
+footer {
+    border-top: 2px solid #C3C3C3;
+    padding: 0.5em;
+    text-align: center;
+    color: #808080;
+    background: #FDC3BC;
+    align-self: stretch;
+   
+  }
+
+/* =================
+    Media queries 
+   ================= */
+@media (min-width: 480px) {
+
+    /* typography */
+
+    html {
+        font-size: 16px;
+    }
+
+
+    
+}
+
+@media (min-width: 730px) {
+    html {
+        font-size: 18px;
+    }
+
+    .my-name h4 {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-item {
+        font-size: 0.7rem; /*10px*/
+    }
+
+    /* layout */
+
+    .container {
+        width: 90%
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    /* typography */
+
+    html {
+        font-size: 16px;
+    }
+
+    .main-intro {
+        font-size: 3rem;
+    }
+    
+    /* layout */
+
+     .container {
+        width: 90%
+    }
+    
+    /* hero formatting */
+
+    #hero .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-left-container {
+        width: 70%;
+        align-items: flex-start;
+    }
+
+    .profile-picture {
+        width: 15em;
+        height: 15em;
+    }
+
+
+    /* skills formatting */
+
+    #skills {
+        width: 100%;
+    }
+
+    /* project formatting  */
+
+    .projectcard {
+        flex-direction: row;
+        margin-top: 1em;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .projectcard-right-info {
+        height: 100%
+    }
+
+    .project-img {
+        margin-top: 0;
+    }
+
+    /* contact formatting */
+
+    .contact-options {
+        margin-top: 1em;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .option {
+        width: 20em;
+    }
+    
+}
+
+@media (min-width: 1280px) {
+
+    html {
+        font-size: 20px;
+    }
+
+    /* typography */
+
+    .main-intro {
+        font-size: 4rem;
+        white-space: nowrap;
+    }
+
+    .navbar-item {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    #skills .skill-category {
+        
+        font-size: 1.5rem;
+    }
+
+    /* layout */
+
+    /* header formmating */
+
+    header {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .navbar-item img {
+        height: 2em;
+        width: 2em
+    }
+
+    .projects img {
+        height: 2.4em;
+        width: 2.4em
+    }
+
+
+
+    .container {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+    .hero-left-container {
+        height: 30em;
+
+        width: 50%;
+    }
+
+    .profile-picture {
+        width: 22em;
+        height: 25em;
+    }
+
+    /* skills formatting  */
+
+  
+
+    /* contact formatting */
+
+    #contact .container{
+        height: 25em;
+        gap: 4em;
+        
+    }
+
+
+    
+    
+}
+
+
+@media (min-width: 1650px) {
+
+    .container {
+        width: 75%;
+    }
+
+
+}
